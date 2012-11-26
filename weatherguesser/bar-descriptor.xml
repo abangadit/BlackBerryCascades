@@ -30,7 +30,8 @@
     <description>The weatherguesser application</description>
 
     <!--  Name of author which is used for signing. Must match the developer name of your development certificate. -->
-    <author>Example Inc.</author>
+    <author>Louis Meadows</author>
+    <authorId>gYAAgLk2JzTc7pZHnixR7fdeuDU</authorId>
 
     <initialWindow>
         <systemChrome>none</systemChrome>
