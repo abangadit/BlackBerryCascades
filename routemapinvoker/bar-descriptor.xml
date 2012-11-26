@@ -52,7 +52,8 @@
     <!-- <copyright></copyright> -->
 
     <!--  Name of author which is used for signing. Must match the developer name of your development certificate. -->
-    <author>Example Inc.</author>
+    <author>Louis Meadows</author>
+    <authorId>gYAAgLk2JzTc7pZHnixR7fdeuDU</authorId>
 
     <!--  Unique author ID assigned by signing authority. Required if using debug tokens. -->
     <!-- <authorId>ABC1234YjsnUk235h</authorId> -->
@@ -97,7 +98,11 @@
     </asset>
 
     <!-- Request permission to execute native code.  Required for native applications. -->
-    <action system="true">run_native</action>
+    <permission>run_native</permission>
+    <permission>read_geolocation</permission>
+    <permission>access_location_services</permission>
+    <permission>access_internet</permission>
+    <permission>read_device_identifying_information</permission>
     <env var="LD_LIBRARY_PATH" value="app/native/lib:/usr/lib/qt4/lib"/>
 
     <!--  The permissions requested by your application. -->
